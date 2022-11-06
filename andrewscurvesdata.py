@@ -20,3 +20,4 @@ def andrews_curves_data(data, class_column, samples):
         df[cols] = np.repeat(data[cols], samples)
     df['pi'] = (((df['t'] - df['t'].min()) /(df['t'].max()-df['t'].min())) - 0.5) * (math.pi *2)
     return df
+
