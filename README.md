@@ -19,9 +19,18 @@ Parameters
 - 'samples': number of samples to generate from your dataframe integer
 
 # Example
-![image](https://user-images.githubusercontent.com/61998370/200385554-7983c82c-a162-4e63-a173-792532e77200.png)
-![image](https://user-images.githubusercontent.com/61998370/200385667-56aedab2-0ddd-4923-9e50-b8cbc957f98f.png)
-![image](https://user-images.githubusercontent.com/61998370/200385738-fa12eab0-8cc0-4df5-8ffa-42cf7d7e6587.png)
+```
+from acdata import acdata
+import pandas as pd
+import plotly.express as px
+
+csv_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+col_names = ['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Class']
+iris =  pd.read_csv(csv_url, names = col_names)
+
+ac_df = acdata(iris, 'Class', 1000)
+ac_df['t'] = ac_df['pi']
+```
 ![image](https://user-images.githubusercontent.com/61998370/200385776-6b6a38a1-3c5b-4a4f-bd3b-07cf0a3dee68.png)
 
 
