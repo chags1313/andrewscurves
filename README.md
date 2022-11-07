@@ -1,7 +1,6 @@
 # acdata [![PyPI version](https://badge.fury.io/py/acdata.svg)](https://badge.fury.io/py/acdata)
 Andrews curves data frame generator for python plots
 # Installation 
-- !pip install acdata
 ```
 pip install acdata
 ```
@@ -13,10 +12,11 @@ from acdata import acdata
 ```
 ac_df = acdata(data, class_column, samples)
 ```
-- Parameters
--- 'data': pandas dataframe
--- 'class_column': target variable string
--- 'samples': number of samples to generate from your dataframe integer
+
+Parameters
+- 'data': pandas dataframe
+- 'class_column': target variable string
+- 'samples': number of samples to generate from your dataframe integer
 
 # Example
 ![image](https://user-images.githubusercontent.com/61998370/200385554-7983c82c-a162-4e63-a173-792532e77200.png)
