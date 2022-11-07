@@ -1,7 +1,7 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
 import math
-def andrews_curves_data(data, class_column, samples):
+def acdata(data, class_column, samples):
     t = np.linspace(-np.pi, np.pi, samples)
     vals = data.drop(class_column, axis=1).values.T
 
@@ -20,6 +20,7 @@ def andrews_curves_data(data, class_column, samples):
         df[cols] = np.repeat(data[cols], samples)
     df['pi'] = (((df['t'] - df['t'].min()) /(df['t'].max()-df['t'].min())) - 0.5) * (math.pi *2)
     return df
+
 
 
 
