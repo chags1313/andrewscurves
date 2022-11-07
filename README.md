@@ -1,4 +1,4 @@
-# acdata
+# acdata [![PyPI version](https://badge.fury.io/py/acdata.svg)](https://badge.fury.io/py/acdata)
 Andrews curves data frame generator for python plots
 # Installation 
 - !pip install acdata
