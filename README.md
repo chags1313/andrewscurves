@@ -34,11 +34,10 @@ Parameters
 - integer representing number representative samples to generate
 
 Returns: andrewscurves()
--------
 - df : pandas.DataFrame
 -- output a pandas dataframe with andrews function spacing and covariates along with feature columns
+
 Returns: plotly_andrews_curves(), seaborn_andrews_curves(), mpl_andrews_curves(), hvplot_andrews_curves()
--------
 - fig : flexible
 -- output plot object plotly, seaborn, matplotlib, or hvplot format
 
