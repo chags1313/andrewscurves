@@ -13,6 +13,13 @@ from andrewscurves import *
 ```
 # Usage
 ```
+andrewscurves(data, class_column, samples)
+plotly_andrews_curves(data, class_columns, samples)
+seaborn_andrews_curves(data, class_columns, samples)
+mpl_andrews_curves(data, class_columns, samples)
+hvplot_andrews_curves(data, class_columns, samples)
+```
+
 Parameters
 ----------
 data : pandas.DataFrame
@@ -30,13 +37,6 @@ Returns: plotly_andrews_curves(), seaborn_andrews_curves(), mpl_andrews_curves()
 -------
 fig : flexible
     output plot object plotly, seaborn, matplotlib, or hvplot format
-
-```
-
-Parameters
-- 'data': pandas dataframe
-- 'class_column': target variable string
-- 'samples': number of samples to generate from your dataframe integer
 
 # Examples
 ```
