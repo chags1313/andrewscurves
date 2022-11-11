@@ -14,29 +14,33 @@ from andrewscurves import *
 # Usage
 ```
 andrewscurves(data, class_column, samples)
+
 plotly_andrews_curves(data, class_columns, samples)
+
 seaborn_andrews_curves(data, class_columns, samples)
+
 mpl_andrews_curves(data, class_columns, samples)
+
 hvplot_andrews_curves(data, class_columns, samples)
 ```
 
 Parameters
 ----------
-data : pandas.DataFrame
-    input a pandas dataframe
-class_column : str
-    target or class column of your pandas dataframe
-samples : int
-    integer representing number representative samples to generate
+- data : pandas.DataFrame
+-- input a pandas dataframe
+- class_column : str
+-- target or class column of your pandas dataframe
+- samples : int
+- integer representing number representative samples to generate
 
 Returns: andrewscurves()
 -------
-df : pandas.DataFrame
-    output a pandas dataframe with andrews function spacing and covariates along with feature columns
+- df : pandas.DataFrame
+-- output a pandas dataframe with andrews function spacing and covariates along with feature columns
 Returns: plotly_andrews_curves(), seaborn_andrews_curves(), mpl_andrews_curves(), hvplot_andrews_curves()
 -------
-fig : flexible
-    output plot object plotly, seaborn, matplotlib, or hvplot format
+- fig : flexible
+-- output plot object plotly, seaborn, matplotlib, or hvplot format
 
 # Examples
 ```
