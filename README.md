@@ -42,6 +42,8 @@ Returns: plotly_andrews_curves(), seaborn_andrews_curves(), mpl_andrews_curves()
 -- output plot object plotly, seaborn, matplotlib, or hvplot format
 
 # Examples
+
+### Data frame generation
 ```
 from andrewscurves import andrewscurves
 import pandas as pd
@@ -53,18 +55,24 @@ iris =  pd.read_csv(csv_url, names = col_names)
 ac_df = andrewscurves(iris, 'Class', 1000)
 ```
 ![image](https://user-images.githubusercontent.com/61998370/201253192-92cdc60b-98b1-4aa2-864f-1b015e308af0.png)
+
+### Plotly chart
 ```
 from andrewscurves import plotly_andrews_curves
 
 plotly_andrews_curves(iris, 'Class',100)
 ```
 ![image](https://user-images.githubusercontent.com/61998370/201253413-608faf6a-cb71-4f64-ba6a-2e2c49b3127b.png)
+
+### Seaborn chart
 ```
 from andrewscurves import seaborn_andrews_curves
 
 seaborn_andrews_curves(iris, 'Class',50)
 ```
 ![image](https://user-images.githubusercontent.com/61998370/201253555-709b96a9-4dbb-41dd-a940-16340b0a4e0b.png)
+
+### Matplotlib chart
 ```
 from andrewscurves import mpl_andrews_curves
 import matplotlib.pyplot as plt
@@ -73,6 +81,8 @@ plt.figure(figsize=(15,8)) ##set figsize with plt like a typical mpl plot
 mpl_andrews_curves(iris, 'Class',100)
 ```
 ![image](https://user-images.githubusercontent.com/61998370/201253683-7844b1d5-ee9d-44d8-b958-fb744aeafbd3.png)
+
+### Holoviews chart
 ```
 from andrewscurves import hvplot_andrews_curves
 
