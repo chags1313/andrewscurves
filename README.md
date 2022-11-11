@@ -13,7 +13,22 @@ from andrewscurves import *
 ```
 # Usage
 ```
-ac_df = andrewscurves(data, class_column, samples)
+andrewscurves(data, class_column, samples):
+    """
+    Parameters
+    ----------
+    data : pandas.DataFrame
+        input a pandas dataframe
+    class_column : str
+        target or class column of your pandas dataframe
+    samples : int
+        integer representing number representative samples to generate
+
+    Returns
+    -------
+    df : pandas.DataFrame
+        output a pandas dataframe with andrews function spacing and covariates along with feature columns
+
 ```
 
 Parameters
