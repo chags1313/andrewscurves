@@ -47,6 +47,8 @@ seaborn_andrews_curves(iris, 'Class',50)
 ![image](https://user-images.githubusercontent.com/61998370/201253555-709b96a9-4dbb-41dd-a940-16340b0a4e0b.png)
 ```
 from andrewscurves import mpl_andrews_curves
+import matplotlib.pyplot as plt
+plt.figure(figsize=(15,8)) ##set figsize with plt like a typical mpl plot
 
 mpl_andrews_curves(iris, 'Class',100)
 ```
