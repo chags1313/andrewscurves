@@ -20,9 +20,7 @@ Parameters
 
 # Example
 ```
-from acdata import acdata
-import pandas as pd
-import plotly.express as px
+from acdata import *
 
 csv_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
 col_names = ['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Class']
