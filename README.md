@@ -29,7 +29,6 @@ col_names = ['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Class']
 iris =  pd.read_csv(csv_url, names = col_names)
 
 ac_df = acdata(iris, 'Class', 1000)
-ac_df['t'] = ac_df['pi']
 ```
 ![image](https://user-images.githubusercontent.com/61998370/200385776-6b6a38a1-3c5b-4a4f-bd3b-07cf0a3dee68.png)
 
