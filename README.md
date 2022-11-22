@@ -1,4 +1,4 @@
-# andrewscurves [![PyPI version](https://badge.fury.io/py/andrewscurves.svg)](https://badge.fury.io/py/andrewscurves) [![Downloads](https://pepy.tech/badge/andrewscurves/week)](https://pepy.tech/project/andrewscurves)
+# andrewscurves [![PyPI version](https://badge.fury.io/py/andrewscurves.svg)](https://badge.fury.io/py/andrewscurves) [![Downloads](https://pepy.tech/badge/andrewscurves/week)](https://pepy.tech/project/andrewscurves) [![Downloads](https://pepy.tech/badge/andrewscurves)](https://pepy.tech/project/andrewscurves)
 Official repository to create high quality andrews function data and high quality plots
 
 https://towardsdatascience.com/simple-introduction-to-andrews-curves-with-python-e20d0620ed6b
