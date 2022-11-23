@@ -31,7 +31,7 @@ Parameters
 - class_column : str
 -- target or class column of your pandas dataframe
 - samples : int
-- integer representing number representative samples to generate
+-- integer representing number representative samples to generate
 
 Returns: andrewscurves()
 - df : pandas.DataFrame
